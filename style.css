@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #FFDEDE;
+}
+
+.choices {
+    height: 320px;
+    width: 320px;
+}
+
+img {
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid #CF0F47;
+}
+
+img:hover {
+    border: 5px solid #FF0B55;
+    cursor: pointer;
+}
+
+/* #rockImg {
+    height: 200px;
+    width: 200px;
+}
+
+#paperImg {
+    height: 200px;
+    width: 200px;
+}
+
+#scissorsImg {
+    height: 200px;
+    width: 200px;
+} */
+
+.choiceContainer {
+    /* height: 300px;
+    width: auto; */
+    margin-top: 100px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 20vmin;
+    height: 70vmin;
+}
+
+.heading {
+    font-size: 6vmin;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.msgContainer {
+    padding: 4px 20px;
+    margin-top: 50px;
+    align-items: center; 
+    height: 20vmin;
+    width: auto;
+    background-color: pink;
+    border-radius: 10px;
+    /* border: 2px solid #CF0F47; */
+
+}
+
+.scoreContainer {
+    padding: 4px 20px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 20vmin;
+    width: 20vmin;
+    background-color: pink;
+    border-radius: 10px;
+    border: 6px solid #CF0F47;
+
+}
+
+p{
+    font-size: 3vmin;
+}
+
